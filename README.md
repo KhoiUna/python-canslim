@@ -5,8 +5,8 @@
 ## Instructions
 
 1. `git clone https://github.com/KhoiUna/python_canslim.git`
-2. Run `cd CANSLIM && python main.py` for searching CANSLIM stocks
-3. Run `cd Pyramid_Profit_Calculator && python main.py` for Pyramid Buying calculator
+2. `cd CANSLIM && python main.py` for searching CANSLIM stocks
+3. `cd Pyramid_Profit_Calculator && python main.py` for Pyramid Buying calculator
 
 ### Notes:
 
