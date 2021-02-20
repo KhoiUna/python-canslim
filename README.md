@@ -6,7 +6,7 @@
 
 1. `git clone https://github.com/KhoiUna/python_canslim.git`
 2. `cd CANSLIM && python main.py` for searching CANSLIM stocks
-3. `cd Pyramid_Profit_Calculator && python main.py` for Pyramid Buying calculator
+3. `cd Pyramid_Profit_Calculator && python main.py` for Pyramid Buying calculator GUI
 
 ### Notes:
 
