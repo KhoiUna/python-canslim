@@ -33,8 +33,10 @@ def main():
         # visualize_stocks_annually(stock_df['TICKER'].tolist())
 
         # Select good stocks
-        good_stocks = stock_df[(stock_df['EPS%'] > 25)
-                               & (stock_df['REV%'] > 25)]
+        # You can set your good_stocks_criteria here
+        good_stocks_criteria = 20
+        good_stocks = stock_df[(stock_df['EPS%'] > good_stocks_criteria)
+                                & (stock_df['REV%'] > good_stocks_criteria)]
         print()
         if good_stocks['TICKER'].count() > 0:
             print('----------GOOD STOCKS----------')
@@ -54,7 +56,7 @@ def main():
         else:
             print('----------NO GOOD STOCKS----------')
     except:
-        pass
+        pass 
 
 
 main()

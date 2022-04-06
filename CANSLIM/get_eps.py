@@ -8,7 +8,7 @@ def get_quarterly_eps(ticker):
     web = requests.get(
         url, 'html.parser')
 
-    soup = BeautifulSoup(web.content, features="lxml")
+    soup = BeautifulSoup(web.content, features="html.parser")
 
     try:
         data = soup.select("table > tbody")[1].select("tr > td")
@@ -29,7 +29,7 @@ def get_annually_eps(ticker):
     web = requests.get(
         url, 'html.parser')
 
-    soup = BeautifulSoup(web.content, features="lxml")
+    soup = BeautifulSoup(web.content, features="html.parser")
 
     try:
         data = soup.select("table > tbody")[0].select("tr > td")

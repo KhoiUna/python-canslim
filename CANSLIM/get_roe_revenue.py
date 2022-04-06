@@ -8,7 +8,7 @@ def get_roe(ticker):
     web = requests.get(
         url, 'html.parser')
 
-    soup = BeautifulSoup(web.content, features="lxml")
+    soup = BeautifulSoup(web.content, features="html.parser")
 
     data = soup.select("td")[3].get_text()[:-1]
     roe = float(data)
@@ -21,7 +21,7 @@ def get_revenue_quarterly(ticker):
     web = requests.get(
         url, 'html.parser')
 
-    soup = BeautifulSoup(web.content, features="lxml")
+    soup = BeautifulSoup(web.content, features="html.parser")
 
     data = soup.select("table > tbody")[1].select("tr > td")
     revenue_list = []
@@ -42,7 +42,7 @@ def get_revenue_annually(ticker):
     web = requests.get(
         url, 'html.parser')
 
-    soup = BeautifulSoup(web.content, features="lxml")
+    soup = BeautifulSoup(web.content, features="html.parser")
 
     data = soup.select("table > tbody")[0].select("tr > td")
     revenue_list = []
