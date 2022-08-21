@@ -49,7 +49,7 @@ def main():
 
             save = input('Do you want to save DataFrame (y/n) ? ')
             if save.lower() == 'y':
-                good_stocks.to_csv('../python_good_stocks_df.csv', index=False)
+                good_stocks.to_csv('./python_good_stocks_df.csv', index=False)
                 print('----------SAVED !!!----------')
             else:
                 print('----------OK----------')
