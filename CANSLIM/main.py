@@ -7,7 +7,7 @@ import fire
 def main(*tickers: List[str]):
     """
     Returns analytics using the CANSLIM method.
-    :param *tickers: a list of stock tickers.
+    :param tickers: A list of stock tickers.
     :return: analytics using the CANSLIM method.
     """    
     tickers_list = [ticker for ticker in tickers]
