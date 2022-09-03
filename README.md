@@ -11,7 +11,7 @@
 
 ## Instructions
 
-- Prefer video tutorial? Click [here](https://github.com/KhoiUna/python-canslim).
+- Prefer video tutorial? Click [here](https://youtu.be/GDBEka9FVas).
 
 1. `git clone https://github.com/KhoiUna/python-canslim.git && cd python_canslim`
 2. `pip install -r requirements.txt` to install the required dependencies
