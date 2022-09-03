@@ -11,6 +11,8 @@
 
 ## Instructions
 
+- Prefer video tutorial? Click [here](https://github.com/KhoiUna/python-canslim).
+
 1. `git clone https://github.com/KhoiUna/python-canslim.git && cd python_canslim`
 2. `pip install -r requirements.txt` to install the required dependencies
 3. `python CANSLIM/main.py analyze [TICKER] [TICKER]...` to analyze stocks using the CANSLIM method.
