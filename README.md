@@ -14,7 +14,8 @@
 1. `git clone https://github.com/KhoiUna/python_canslim.git && cd python_canslim`
 2. `pip install -r requirements.txt` to install the required dependencies
 3. `python CANSLIM/main.py analyze [TICKER] [TICKER]...` to analyze stocks using the CANSLIM method.
-   - You can run `python CANSLIM/main.py -h` or `python CANSLIM/main.py analyze -h` to learn more.
+   - You can run `python CANSLIM/main.py -h` or `python CANSLIM/main.py analyze -h` to learn more about available command.
+   - The program will return **-GOOD STOCKS-** that fit the CANSLIM criteria.
 4. `python Pyramid_Profit_Calculator/main.py` to start the Pyramid Buying calculator GUI.
 
 ### Notes:
