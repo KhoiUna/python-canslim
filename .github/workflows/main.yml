@@ -1,0 +1,24 @@
+name: Packj Audit GitHub Action
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  packj-security-audit:
+    permissions:
+      contents: read
+      pull-requests: write
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      
+      - name: Audit dependencies
+        uses: ossillate-inc/packj-github-action@main
+        with:
+          DEPENDENCY_FILES: pypi:requirements.txt
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
