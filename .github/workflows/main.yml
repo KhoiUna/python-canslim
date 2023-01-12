@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Audit dependencies
-        uses: ossillate-inc/packj-github-action@main
+        uses: khoiuna/packj-github-action@dev
         with:
           DEPENDENCY_FILES: pypi:requirements.txt
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
