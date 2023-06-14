@@ -1,4 +1,4 @@
-# Introduction asfasdfdsaf
+# Introduction asdfasdfasfas
 
 - A Python scraping program to analyze & visualize stocks using the [CANSLIM](https://www.investopedia.com/terms/c/canslim.asp) method by William J.O'Neil, also includes a calculator to find entry points to add more positions to your portfolio (Pyramid Buying).
 
