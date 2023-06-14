@@ -4,7 +4,7 @@
 
 ## Tech stack
 
-- Python:
+- Python:fsafasdfsdafasdf
   - pandas, numpy, matplotlib
   - [python-fire](https://github.com/google/python-fire) to automatically generate command line interfaces.
   - [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/#) to scrap HTML data.
